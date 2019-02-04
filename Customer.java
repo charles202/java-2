@@ -1,58 +1,59 @@
-//Charles Bejarano 
+//Charles Bejarano
 
 import java.util.ArrayList;
 
-public class Customer 
+public class Customer
 {
-		private String name; 
-		private String creditCardNumber; 
-		private ArrayList<Rental> rentalList = new ArrayList<Rental>(); 
-		
+		private String name;
+		private String creditCardNumber;
+		private ArrayList<Rental> rentalList = new ArrayList<Rental>();
+
 		public Customer()
 		{
 			setName("");
 			setCreditCardNumber("");
 		}
-		
-		public Customer(String name, String creditCardNumber) 
-		{ 
+
+		public Customer(String name, String creditCardNumber)
+		{
 			setName(name);
 			setCreditCardNumber(creditCardNumber);
-		} 
-		
+		}
+
 		public String getName()
 		{
 			return name;
 		}
-		
+
 		public void setName(String name)
 		{
 			this.name = name;
 		}
-		
+
 		public String getCreditCardNumber()
 		{
 			return creditCardNumber;
 		}
-		
+
 		public void setCreditCardNumber(String creditCardNumber)
 		{
-			this.creditCardNumber = creditCardNumber; 
+			this.creditCardNumber = creditCardNumber;
 		}
-		
+
 		public ArrayList<Rental> getRentalList()
 		{
-			return rentalList; 
+			return rentalList;
 		}
-		
+
 		public void addRental(Rental rental)
 		{
-			this.rentalList = rentalList;
+			this.rentalList = rentalList;  //youre not adding to the ArrayList
+			//  use .add();
 		}
-		
-		public String toString() 
-		{ 
+
+		public String toString()
+		{
 			return("Name" + name + "Credit Card Number" + creditCardNumber + "Rental" + rentalList);
 		}
-		
+
 }
