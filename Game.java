@@ -15,7 +15,7 @@ public class Game extends Rental
 	{
 		super(title, rentalCode, price);
 		setGameType(type);
-		setGameType(type)
+	
 	}
 
 	public void setGameType(GameType type)
