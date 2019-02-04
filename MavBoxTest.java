@@ -6,15 +6,15 @@ public class MavBoxTest
 {
 	public static void main(String args[])
 	{
-		MavBox test = new MavBox(); 
+		MavBox test = new MavBox();
 
 
-		Customer c1 = new Customer("Jones", "1234-1234-1234-1234");
+		Customer c1 = new Customer("Jones", "1234-1234-1234-1234"); // this is correct
 		Customer c2 = new Customer("Smith", "6543-6543-6543-6543");
 
-		Movie m1 = new Movie("Titanic", "1A", 4.99);
+		Movie m1 = new Movie("Titanic", "1A", 4.99);//
 		Movie m2 = new Movie("Star Wars", "2C", 5.99);
-		m1.setMtype(Movie.MovieType.BLURAY);
+		m1.setMtype(Movie.MovieType.BLURAY);//*
 		m2.setMtype(Movie.MovieType.DVD);
 
 		Game g1 = new Game("Warcraft", "5D", 3.99);
