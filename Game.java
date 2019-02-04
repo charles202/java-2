@@ -14,6 +14,7 @@ public class Game extends Rental
 	public Game(String title, String rentalCode, double price, GameType type)
 	{
 		super(title, rentalCode, price);
+		setGameType(type);
 		setGameType(type)
 	}
 
