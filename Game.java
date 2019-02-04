@@ -8,18 +8,18 @@ public class Game extends Rental
 	public Game()
 	{
 		super();
-		//set the default game type
+		setGameType(gType);
 	}
 
 	public Game(String title, String rentalCode, double price, GameType type)
 	{
 		super(title, rentalCode, price);
-		//missing set method 
+		setGameType(type)
 	}
 
 	public void setGameType(GameType type)
 	{
-		this.gType = gType;
+		this.gType = type;
 	}
 
 	public GameType getGameType()
