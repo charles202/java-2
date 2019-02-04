@@ -33,17 +33,17 @@ public class MavBox
 		// same error with these methods
 		public void addCustomer(Customer customer)
 		{
-			this.customerList = customerList;
+			customerList.add(customer);
 		}
 
 		public void addMovie(Movie movie)
 		{
-			this.movieList = movieList;
+			movieList.add(movie);
 		}
 
 		public void addGame(Game game)
 		{
-			this.gameList = gameList;
+			gameList.add(game);
 		}
 
 		public String toString()
@@ -52,3 +52,12 @@ public class MavBox
 		}
 
 }
+			
+			
+		
+		
+		
+		
+		
+			
+		
