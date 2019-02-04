@@ -1,39 +1,39 @@
 //Charles Bejarano
 
-//Charles Bejarano 
+//Charles Bejarano
 
-public class Movie extends Rental 
+public class Movie extends Rental
 {
 	public enum MovieType{BLUYRAY,DVD};
-	private MovieType mType = MovieType.DVD; 
+	private MovieType mType = MovieType.DVD;
 
 
 
 	public Movie()
-	{ 
-		super();
-	}
-	
-	public Movie(String title, String rentalCode, double price, MovieType type) 
 	{
-		super(title, rentalCode, price); 
+		super();
+		//set the defualt movie type
 	}
-	
+
+	public Movie(String title, String rentalCode, double price, MovieType type)
+	{
+		super(title, rentalCode, price);
+		//set the movie type 
+	}
+
 	public void setMovieType(MovieType type)
 	{
 		this.mType = mType;
 	}
-	
+
 	public MovieType getMovieType()
 	{
-		return mType; 
+		return mType;
 	}
-	
+
 	public String toString()
 	{
-		return(super.toString() + "Movie Type" + mType); 
+		return(super.toString() + "Movie Type" + mType);
 	}
-	
+
 }
-	
-	
