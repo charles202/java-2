@@ -6,14 +6,8 @@ public class MavBoxTest
 {
 	public static void main(String args[])
 	{
+		MavBox test = new MavBox(); 
 
-
-		// you can't make these ArrayList here
-		// BUUTTT you already made them somewhere....where?
-		
-		// ArrayList<Customer> customerList = new ArrayList<Customer>();
-		// ArrayList<Movie> movieList = new ArrayList<Movie>();
-		// ArrayList<Game> gameList = new ArrayList<Game>();
 
 		Customer c1 = new Customer("Jones", "1234-1234-1234-1234");
 		Customer c2 = new Customer("Smith", "6543-6543-6543-6543");
