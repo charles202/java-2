@@ -1,6 +1,5 @@
 //Charles Bejarano
 
-//Charles Bejarano
 
 public class Movie extends Rental
 {
@@ -8,22 +7,21 @@ public class Movie extends Rental
 	private MovieType mType = MovieType.DVD;
 
 
-
 	public Movie()
 	{
 		super();
-		//set the defualt movie type
+		setMovieType(mType);
 	}
 
 	public Movie(String title, String rentalCode, double price, MovieType type)
 	{
 		super(title, rentalCode, price);
-		//set the movie type 
+		setMovieType(type);
 	}
 
 	public void setMovieType(MovieType type)
 	{
-		this.mType = mType;
+		this.mType = type;
 	}
 
 	public MovieType getMovieType()
