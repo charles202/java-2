@@ -47,8 +47,7 @@ public class Customer
 
 		public void addRental(Rental rental)
 		{
-			this.rentalList = rentalList;  //youre not adding to the ArrayList
-			//  use .add();
+			rentalList.add(rental);
 		}
 
 		public String toString()
