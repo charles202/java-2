@@ -30,7 +30,6 @@ public class MavBox
 			return gameList;
 		}
 
-		// same error with these methods
 		public void addCustomer(Customer customer)
 		{
 			customerList.add(customer);
@@ -52,12 +51,3 @@ public class MavBox
 		}
 
 }
-			
-			
-		
-		
-		
-		
-		
-			
-		
