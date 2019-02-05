@@ -35,8 +35,5 @@ public class MavBoxTest
 		System.out.println(MavBox a1) 
 	}
 
-	public String toString()
-	{
-		return("Customer List" + customerList + "Movie List" + movieList + "Game List" + gameList);
-	}
+
 }
