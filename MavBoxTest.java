@@ -31,10 +31,11 @@ public class MavBoxTest
 		gameList.add(g1);
 		gameList.add(g2);
 
-		System.out.println(customerList);
-		System.out.println(movieList);
-		System.out.println(gameList);
 
 	}
 
+	public String toString()
+	{
+		return("Customer List" + customerList + "Movie List" + movieList + "Game List" + gameList);
+	}
 }
