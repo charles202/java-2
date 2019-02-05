@@ -32,6 +32,7 @@ public class MavBoxTest
 		gameList.add(g2);
 
 
+		System.out.println(MavBox a1) 
 	}
 
 	public String toString()
