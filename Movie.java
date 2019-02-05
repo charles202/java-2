@@ -13,16 +13,12 @@ public class Movie extends Rental
 		setMovieType(mType);
 	}
 
-	public Movie(String title, String rentalCode, double price, MovieType type)//look here
+	public Movie(String title, String rentalCode, double price, MovieType type)
 	{
 		super(title, rentalCode, price);
 		setMovieType(type);
 	}
 
-	public void setMovieType(MovieType type)
-	{
-		this.mType = type;
-	}
 
 	public MovieType getMovieType()
 	{
