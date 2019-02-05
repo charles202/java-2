@@ -32,7 +32,10 @@ public class MavBoxTest
 		gameList.add(g2);
 
 
-		System.out.println(MavBox a1) 
+		System.out.println(customerList);
+		System.out.println(movieList);
+		System.out.println(gameList);
+		
 	}
 
 
